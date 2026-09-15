@@ -15,8 +15,16 @@ function createSlug(string) {
     return string.toLowerCase()
 };
 
+function avarage(arrayNum) {
+    let somma = 0
+    for (let i = 0; i < arrayNum.length; i++) {
+        somma += arrayNum[i]
+    }
+    return somma / arrayNum.length
+}
 
 module.exports = {
     getInitials,
-    createSlug
+    createSlug,
+    avarage
 }
