@@ -12,7 +12,8 @@ function getInitials(stringa) {
 };
 
 function createSlug(string) {
-    return string.toLowerCase()
+    const sluggedString = string.replaceAll(" ", "-")
+    return sluggedString.toLowerCase()
 };
 
 function avarage(arrayNum) {
