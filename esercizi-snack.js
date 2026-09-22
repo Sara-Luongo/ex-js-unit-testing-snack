@@ -1,38 +1,4 @@
 
-const posts = [
-    {
-        id: 1,
-        title: "Come iniziare a programmare da zero",
-        slug: "come-iniziare-a-programmare-da-zero"
-    },
-    {
-        id: 2,
-        title: "Le basi di JavaScript",
-        slug: "le-basi-di-javascript"
-    },
-    {
-        id: 3,
-        title: "Guida alla creazione di un sito web",
-        slug: "guida-alla-creazione-di-un-sito-web"
-    },
-    {
-        id: 4,
-        title: "Cos'è un'API e come funziona",
-        slug: "cose-un-api-e-come-funziona"
-    },
-    {
-        id: 5,
-        title: "Introduzione a React",
-        slug: "introduzione-a-react"
-    },
-    {
-        id: 6,
-        title: "Come migliorare le proprie competenze di sviluppo",
-        slug: "come-migliorare-le-proprie-competenze-di-sviluppo"
-    }
-];
-
-
 function getInitials(stringa) {
     const nomeCompleto = [];
     const nomeInArray = stringa.split(" ")
